@@ -1,0 +1,36 @@
+.split {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px 20px;
+    background: #0b0f17;   /* koyu arka plan */
+    color: #fff;
+  }
+  
+  .split img {
+    width: 45%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .split .text {
+    width: 45%;
+  }
+  
+  .split h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  
+  .split p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+  }
+  
+  /* Görseli ve yazıyı ters çevirmek için */
+  .split.reverse {
+    flex-direction: row-reverse;
+  }
+  
